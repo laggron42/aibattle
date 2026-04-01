@@ -12,9 +12,11 @@ The agent was configured with the following parameters:
 - Top P: 1
 - Response format: text
 
-<spoiler>
+<details>
+
 <summary>Initial prompt</summary>
 
+```
 You are the referee of the Ballsdex trading card game.
 Two players can battle each other using their decks of cards called "countryballs".
 
@@ -29,8 +31,9 @@ You MUST end every response with exactly one of these on its own line:
 - PLAYER 1 WON (player 1 wins)
 - PLAYER 2 WON (player 2 wins)
 - ENDED (the battle ends in a draw or neither side wins clearly)
+```
 
-</spoiler>
+</details>
 
 Before using this, replace the Mistral API key and agent ID in `battle.py`.
 
