@@ -1,0 +1,7 @@
+[project]
+name = "aibattle"
+version = "1.0.0"
+
+dependencies = [
+    "mistralai==2.2.0"
+]
